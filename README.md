@@ -1,7 +1,7 @@
 
 # Update #1:
 
-  Application shows top 100 crypto-curreny and pulls from coinGecko API. Continuing development on the corresponding chart that shows how much you would have made.
+  Application shows top 100 crypto-curreny and pulls from coinGecko API. Continuing development on the corresponding chart that shows how much you would have made. Next task is to refactor the state to utilize the react-redux package.
   
 <img width="1163" alt="Screen Shot 2021-11-03 at 3 51 53 PM" src="https://user-images.githubusercontent.com/42896991/140230232-914d022a-9cf2-4358-830e-b3eb6a520441.png">
 

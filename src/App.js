@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import Coin from "./features/Coin/Coin.js";
-import { render } from "@testing-library/react";
-import LineChart from "react-linechart";
+import Chart from "./features/Chart/Chart.js";
 import "../node_modules/react-linechart/dist/styles.css";
 
 var apiUrl =
@@ -13,16 +12,6 @@ function App() {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState([]);
 
-  const data = [
-    {
-      color: "steelblue",
-      points: [
-        { x: 1, y: 2 },
-        { x: 3, y: 5 },
-        { x: 7, y: -3 },
-      ],
-    },
-  ];
 
   // Axios Call
   useEffect(() => {
@@ -58,12 +47,7 @@ function App() {
           />
         </form>
       </div>
-      <div>
-        <div className="App">
-          <h1>My First LineChart</h1>
-          <LineChart width={600} height={400} data={data} />
-        </div>
-      </div>
+      <Chart/>
       {coins.map((coin) => {
         return (
           <Coin

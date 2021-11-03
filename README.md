@@ -1,3 +1,11 @@
+
+# Update #1:
+
+  Application shows top 100 crypto-curreny and pulls from coinGecko API. Continuing development on the corresponding chart that shows how much you would have made.
+  
+<img width="1163" alt="Screen Shot 2021-11-03 at 3 51 53 PM" src="https://user-images.githubusercontent.com/42896991/140230232-914d022a-9cf2-4358-830e-b3eb6a520441.png">
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
@@ -11,6 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+  
 
 ### `yarn test`
 

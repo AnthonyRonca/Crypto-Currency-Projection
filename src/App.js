@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-import Coin from "./features/Coin/Coin.js";
+import Coin from "./features/coinList/coin/Coin.js";
 import Chart from "./features/Chart/Chart.js";
 import "../node_modules/react-linechart/dist/styles.css";
 

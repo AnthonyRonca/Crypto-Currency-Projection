@@ -1,5 +1,16 @@
+# User Story
 
-# Update #1:
+ Web application retrieves top 100 crypto-currencies from the Coin Gecko API and displays their daily market value. Built utilizing React, CSS, and CoinGecko API. 
+ 
+ Temporarily deployed on 11/6/21 at: crypto-daily-snapshot.surge.sh
+
+https://user-images.githubusercontent.com/42896991/140628466-e56e8df1-331b-4232-b947-97e7bef330a6.mov
+
+
+
+## Update #2:
+After some initial research it appears that Redux may overcomplicate the small amount of state management required in this web application. Abstracting the state with Redux would prove more encumbersome than the current solution.
+## Update #1:
 
   Application shows top 100 crypto-curreny and pulls from coinGecko API. Continuing development on the corresponding chart that shows how much you would have made. Next task is to refactor the state to utilize the react-redux package.
   

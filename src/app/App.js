@@ -10,8 +10,6 @@ var apiUrl =
 
 function App() {
   const [coins, setCoins] = useState([]);
-  const [search, setSearch] = useState([]);
-
 
   // Axios Call
   useEffect(() => {
@@ -26,28 +24,15 @@ function App() {
       });
   }, []);
 
-  const handleChange = (event) => {
-    setSearch(event.target.value);
-  };
-
-  const filteredCoins = coins.filter((coin) => {
-    coin.name.toLowerCase().includes("bitcoin");
-  });
-
   return (
     <div className="coin-app">
       <div className="coin-search">
-        <h1 className="coin-text"> Search a Currency</h1>
+        {/* <h1 className="coin-text"> Today's Biggest Mover</h1> */}
         <form>
-          <input
-            type="text"
-            placeholder="Bitcoin"
-            className="coin-input"
-            onChange={handleChange}
-          />
+          <p className="market-label">Market Snapshot</p>
         </form>
       </div>
-      <Chart/>
+      {/* <Chart/> */}
       {coins.map((coin) => {
         return (
           <Coin
